@@ -27,7 +27,7 @@ typedef int socklen_t;
 #include <filesystem>
 
 #define PORT 2121
-#define BUFFER_SIZE 1024
+#define BUFFER_SIZE 2048
 namespace fs = std::filesystem;
 
 void sendFileList(SOCKET client_socket)
